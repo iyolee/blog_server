@@ -1,5 +1,12 @@
 # blog_server
 
+## 路由
+- GET：读取和检索动作。
+- POST：新增和新建动作。
+- PUT：更新动作，用于更新一个完整的资源，要求为幂等。
+- PATCH：更新动作，用于更新某一个资源的一个组成部分。
+- DELETE：删除动作。
+
 ## 数据库
 
 使用 MySQL
@@ -51,3 +58,10 @@ create table `blog_article_tag` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='文章标签关联';
 ```
+
+## 基础组件
+- 错误码标准化
+- 配置管理
+- 数据库连接
+- 日志写入
+- 响应处理
