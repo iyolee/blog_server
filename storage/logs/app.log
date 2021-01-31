@@ -1,0 +1,2 @@
+2021/01/31 23:25:49 {"callers":["/Users/jenkin/GoSpace/blog_server/main.go: 22 main.init.0"],"level":"info","message":"blog_server: logger","time":1612106749969176000}
+2021/01/31 23:26:29 {"callers":["/Users/jenkin/GoSpace/blog_server/main.go: 22 main.init.0"],"level":"info","message":"blog_server: logger","time":1612106789929353000}
