@@ -19,7 +19,7 @@ type AppSettingS struct {
 
 type DatabaseSettingS struct {
 	DBType       string
-	UseName      string
+	Username     string
 	Password     string
 	Host         string
 	DBName       string
