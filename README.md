@@ -65,3 +65,22 @@ create table `blog_article_tag` (
 - 数据库连接
 - 日志写入
 - 响应处理
+
+## 接口文档
+采用 Swagger。
+``` bash
+go get -u github.com/swaggo/swag/cmd/swag
+go get -u github.com/swaggo/gin-swagger
+go get -u github.com/swaggo/files
+go get -u github.com/alecthomas/template
+```
+
+注解：
+- @Summary: 摘要
+- @Produce: MIME类型列表
+- @Param: 参数格式，从左到右分别为：参数名、入参类型、数据类型、是否必填和注释
+- @Success: 响应成功，从左到右分别为：状态码、参数类型、数据类型和注释
+- @Failure: 响应失败，从左到右分别为：状态码，参数类型，数据类型和注释
+- @Router: 路由，从左到右分别为：路由地址和HTTP方法
+
+打开 http://127.0.0.1:8080/swagger/index.html 查看
